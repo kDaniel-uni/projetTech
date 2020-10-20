@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/bar.c
+bar.h
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/bar.h
+math.h
+-
+
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/bar.h
+
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/foo.c
+foo.h
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/foo.h
+
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/foo.h
+
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/main.c
+stdio.h
+-
+foo.h
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/foo.h
+bar.h
+/net/cremi/kdaniel/espaces/travail/PT2/helloworld/bar.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -std=c99 -g -Wall  -rdynamic CMakeFiles/helloworld.dir/main.c.o CMakeFiles/helloworld.dir/bar.c.o CMakeFiles/helloworld.dir/foo.c.o  -o helloworld  -lm 
