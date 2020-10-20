@@ -63,6 +63,6 @@ game game_default_solution(void){
 
     uint tents_in_each_col[8] = {4,0,1,2,1,1,2,1};
 
-    return game_new(*sqr,*tents_in_each_row,*tents_in_each_col);
+    return game_new(sqr,tents_in_each_row,tents_in_each_col);
 
 };
