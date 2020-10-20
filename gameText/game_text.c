@@ -12,7 +12,7 @@ int main(void) {
         char x;
         int y,z;
 
-        printf("Donnez un caractère");
+        printf("Donnez un caractère\n");
         int cara = scanf("%c",&x);
 
         if (cara == 1){
@@ -25,28 +25,25 @@ int main(void) {
                 game_delete(g);
                 printf("shame\n");
                 return 0;
+            } else if ( x == 't' || x == 'e' || x == 'g') {
+
+                printf("Donnez la position de la case");
+                int ret = scanf("%d %d",&y,&z);
+
+                if (game_check_move(g,y,z,x) == REGULAR){
+                    game_play_move(g,y,z,x);
+                } else if (game_check_move(g,y,z,x) == ILLEGAL) {
+                    printf("Position et/ou type de case invalide\n");
+                } else {
+                    game_play_move(g,y,z,x);
+                    printf("Warning : Losing move\n");
+                } 
             } else {
                 printf("Caractère invalide, tapez h pour afficher l'aide\n");
             }
         } else {
-            printf("Caractère invalide, tapez h pour afficher l'aide\n"); 
-        }
-        if ( x == 't' || x == 'e' || x == 'g') {
-
-            printf("Donnez la position de la case");
-            int ret = scanf("%d %d",&y,&z);
-
-            if (game_check_move(g,y,z,x) == REGULAR){
-                game_play_move(g,y,z,x);
-            } else if (game_check_move(g,y,z,x) == ILLEGAL) {
-                printf("Position et/ou type de case invalide\n");
-            } else {
-                game_play_move(g,y,z,x);
-                printf("Warning : Losing move\n");
-            } 
-        } else {
-            printf("Mauvaise commande, tapez h pour afficher l'aide\n");
-        }    
+            printf("Trop de d'entrée\n");
+        }   
     }
     printf("congratulation\n");
 
