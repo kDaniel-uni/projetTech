@@ -4,11 +4,11 @@ LDFLAGS=
 
 all: game_text
 
+libgame.a: game.o game_aux.o
+	ar rcs $@ $^
+
 game_text: game_text.c libgame.a
 	$(CC) $(LDFLAGS) $^ -o $@
-
-libgame.a: game.o game_aux.o
-	$(CC) $^ -o $@ 
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
