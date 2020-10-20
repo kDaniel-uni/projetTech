@@ -29,13 +29,23 @@ int main(void) {
 
                 printf("Donnez la position de la case");
                 int ret = scanf("%d %d",&y,&z);
-
-                if (game_check_move(g,y,z,x) == REGULAR){
-                    game_play_move(g,y,z,x);
-                } else if (game_check_move(g,y,z,x) == ILLEGAL) {
+                int typ;
+                if (x == 't'){
+                    typ = 2;
+                } else if (x == 'e')
+                {
+                    typ = 0;
+                } else if (x == 'g')
+                {
+                    typ = 3;
+                }
+                
+                if (game_check_move(g,y,z,typ) == REGULAR){
+                    game_play_move(g,y,z,typ);
+                } else if (game_check_move(g,y,z,typ) == ILLEGAL) {
                     printf("Position et/ou type de case invalide\n");
                 } else {
-                    game_play_move(g,y,z,x);
+                    game_play_move(g,y,z,typ);
                     printf("Warning : Losing move\n");
                 } 
             } else {
