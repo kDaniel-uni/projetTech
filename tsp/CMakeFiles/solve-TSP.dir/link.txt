@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -std=c99 -g -Wall -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/solve-TSP.dir/solve-TSP.c.o CMakeFiles/solve-TSP.dir/matrice2d.c.o CMakeFiles/solve-TSP.dir/memoire.c.o CMakeFiles/solve-TSP.dir/tsp.c.o -o solve-TSP  -lm 
