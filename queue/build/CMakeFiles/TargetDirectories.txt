@@ -1,0 +1,5 @@
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/CMakeFiles/edit_cache.dir
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/CMakeFiles/test.dir
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/CMakeFiles/rebuild_cache.dir
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/CMakeFiles/sample.dir
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/CMakeFiles/test_queue.dir

@@ -1,0 +1,88 @@
+Start testing: Oct 22 18:20 CEST
+----------------------------------------------------------
+1/5 Testing: test_queue_init_free
+1/5 Test: test_queue_init_free
+Command: "/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/test_queue" "init_free"
+Directory: /net/cremi/kdaniel/espaces/travail/projetTech/queue/build
+"test_queue_init_free" start time: Oct 22 18:20 CEST
+Output:
+----------------------------------------------------------
+=> Start test "init_free"
+Test "init_free" finished: SUCCESS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_queue_init_free" end time: Oct 22 18:20 CEST
+"test_queue_init_free" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: test_queue_push
+2/5 Test: test_queue_push
+Command: "/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/test_queue" "push"
+Directory: /net/cremi/kdaniel/espaces/travail/projetTech/queue/build
+"test_queue_push" start time: Oct 22 18:20 CEST
+Output:
+----------------------------------------------------------
+=> Start test "push"
+Test "push" finished: SUCCESS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_queue_push" end time: Oct 22 18:20 CEST
+"test_queue_push" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: test_queue_pop
+3/5 Test: test_queue_pop
+Command: "/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/test_queue" "pop"
+Directory: /net/cremi/kdaniel/espaces/travail/projetTech/queue/build
+"test_queue_pop" start time: Oct 22 18:20 CEST
+Output:
+----------------------------------------------------------
+=> Start test "pop"
+Test "pop" finished: SUCCESS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_queue_pop" end time: Oct 22 18:20 CEST
+"test_queue_pop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: test_queue_length
+4/5 Test: test_queue_length
+Command: "/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/test_queue" "length"
+Directory: /net/cremi/kdaniel/espaces/travail/projetTech/queue/build
+"test_queue_length" start time: Oct 22 18:20 CEST
+Output:
+----------------------------------------------------------
+=> Start test "length"
+Test "length" finished: SUCCESS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_queue_length" end time: Oct 22 18:20 CEST
+"test_queue_length" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: test_queue_empty
+5/5 Test: test_queue_empty
+Command: "/net/cremi/kdaniel/espaces/travail/projetTech/queue/build/test_queue" "empty"
+Directory: /net/cremi/kdaniel/espaces/travail/projetTech/queue/build
+"test_queue_empty" start time: Oct 22 18:20 CEST
+Output:
+----------------------------------------------------------
+=> Start test "empty"
+Test "empty" finished: SUCCESS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_queue_empty" end time: Oct 22 18:20 CEST
+"test_queue_empty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 22 18:20 CEST

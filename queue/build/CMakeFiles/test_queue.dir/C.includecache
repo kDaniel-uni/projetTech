@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/queue.c
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+queue.h
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/queue.h
+
+/net/cremi/kdaniel/espaces/travail/projetTech/queue/queue.h
+stdbool.h
+-
+

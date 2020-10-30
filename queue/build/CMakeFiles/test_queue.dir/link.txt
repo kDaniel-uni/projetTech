@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c99 -g  -rdynamic CMakeFiles/test_queue.dir/test_queue.c.o CMakeFiles/test_queue.dir/queue.c.o  -o test_queue 
